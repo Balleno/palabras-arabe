@@ -131,6 +131,8 @@ let contador = 0;
 				document.getElementById("printOrigen").innerHTML = "";
 				document.getElementById("printFonetizacion").innerHTML = "";
 				document.getElementById("printCastellano").innerHTML = "";
+				document.getElementById("audio").pause();
+				document.getElementById("audio").currentTime = 0;
 			}
 			
 			if (contador <= 2){
