@@ -34,7 +34,7 @@ button.a {
 	display: none
 }
 
-<!-- para móviles -->
+//para móviles
 @media only screen and (max-width: 600px) {
 	p.a {
 	font-size:100px;
@@ -44,16 +44,16 @@ button.a {
 		color:grey;
 	}
 	button.a {
-	background-color: #2dc3bf;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 32px;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 25px;
-}
+		background-color: #2dc3bf;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 32px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 25px;
+	}
 }
