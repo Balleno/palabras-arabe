@@ -105,7 +105,7 @@ let contador = 0;
 			{"origen":"جدة","fonetizacion":"yidah","castellano":"abuela","categoria":"palabra","audio": "jidah"},
 			{"origen":"أخ","fonetizacion":"aj","castellano":"hermano","categoria":"palabra","audio": ""},
 			{"origen":"أخت","fonetizacion":"ujt","castellano":"hermana","categoria":"palabra","audio": ""},
-			{"origen":"زيت","fonetizacion":"zayt","castellano":"aceite","categoria":"palabra","audio": ""},
+			{"origen":"زيت","fonetizacion":"zayt","castellano":"aceite","categoria":"palabra","audio": "aceite"},
 			{"origen":"حمامة","fonetizacion":"hamama","castellano":"paloma","categoria":"palabra","audio": "paloma"},
 			{"origen":"أسد","fonetizacion":"asad","castellano":"león","categoria":"palabra","audio": ""},
 			{"origen":"سرير","fonetizacion":"sarir","castellano":"cama","categoria":"palabra","audio": ""},
@@ -121,7 +121,7 @@ let contador = 0;
 			{"origen":"مطبخ","fonetizacion":"matbaj","castellano":"cocina","categoria":"palabra","audio": ""},
 			{"origen":"أصفر","fonetizacion":"asfar","castellano":"amarillo","categoria":"palabra","audio": "amarillo"},
 			{"origen":"رز","fonetizacion":"roz","castellano":"arroz","categoria":"palabra","audio": ""},
-			{"origen":"أزرق","fonetizacion":"azraq","castellano":"azul","categoria":"palabra","audio": ""},
+			{"origen":"أزرق","fonetizacion":"azraq","castellano":"azul","categoria":"palabra","audio": "azul"},
 			{"origen":"جزيرة","fonetizacion":"yazira","castellano":"isla","categoria":"palabra","audio": ""},
 			{"origen":"موز","fonetizacion":"mouz","castellano":"plátanos","categoria":"palabra","audio": ""},
 			];
