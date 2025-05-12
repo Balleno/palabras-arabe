@@ -34,7 +34,6 @@ button.a {
 	display: none
 }
 
-//para móviles
 @media only screen and (max-width: 600px) {
 	p.a {
 	font-size:100px;
