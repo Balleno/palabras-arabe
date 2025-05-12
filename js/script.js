@@ -63,15 +63,15 @@ let contador = 0;
 			{"origen":"في","fonetizacion":"fi","castellano":"en","categoria":"palabra","audio": ""},
 			{"origen":"كيف حالك","fonetizacion":"kayf haluk","castellano":"cómo estás","categoria":"frase","audio": ""},
 			{"origen":"باب","fonetizacion":"baab","castellano":"puerta","categoria":"palabra","audio": ""},
-			{"origen":"بيت","fonetizacion":"bait","castellano":"casa","categoria":"palabra","audio": ""},
+			{"origen":"بيت","fonetizacion":"bait","castellano":"casa","categoria":"palabra","audio": "casa"},
 			{"origen":"كلب","fonetizacion":"kalb","castellano":"perro","categoria":"palabra","audio": ""},
 			{"origen":"قطة","fonetizacion":"qita","castellano":"gato","categoria":"palabra","audio": ""},
-			{"origen":"زيتون","fonetizacion":"zaytun","castellano":"aceituna","categoria":"palabra","audio": ""},
+			{"origen":"زيتون","fonetizacion":"zaytun","castellano":"aceituna","categoria":"palabra","audio": "aceituna"},
 			{"origen":"مقبض","fonetizacion":"muqbid","castellano":"grifo","categoria":"palabra","audio": ""},
 			{"origen":"ذرة","fonetizacion":"dharaba","castellano":"maiz","categoria":"palabra","audio": ""},
 			{"origen":"ذهب","fonetizacion":"dhahab","castellano":"oro","categoria":"palabra","audio": ""},
 			{"origen":"بارد","fonetizacion":"barid","castellano":"frío","categoria":"palabra","audio": ""},
-			{"origen":"كتاب","fonetizacion":"kitab","castellano":"libro","categoria":"palabra","audio": ""},
+			{"origen":"كتاب","fonetizacion":"kitab","castellano":"libro","categoria":"palabra","audio": "libro"},
 			{"origen":"تاج","fonetizacion":"tash","castellano":"corona","categoria":"palabra","audio": ""},
 			{"origen":"ثوم","fonetizacion":"thum","castellano":"ajo","categoria":"palabra","audio": ""},
 			{"origen":"مثال","fonetizacion":"mithal","castellano":"ejemplo","categoria":"palabra","audio": ""},
@@ -95,7 +95,7 @@ let contador = 0;
 			{"origen":"مرحبا","fonetizacion":"marhaban","castellano":"hola","categoria":"palabra","audio": ""},
 			{"origen":"خبز","fonetizacion":"jubz","castellano":"pan","categoria":"palabra","audio": ""},
 			{"origen":"تفاح","fonetizacion":"tufaah","castellano":"manzanas","categoria":"palabra","audio": ""},
-			{"origen":"ملِك","fonetizacion":"mlik","castellano":"rey","categoria":"palabra","audio": ""},
+			{"origen":"ملِك","fonetizacion":"mlik","castellano":"rey","categoria":"palabra","audio": "rey"},
 			{"origen":"أحمر","fonetizacion":"ahmar","castellano":"rojo","categoria":"palabra","audio": "rojo"},
 			{"origen":"أخضر","fonetizacion":"ajdar","castellano":"verde","categoria":"palabra","audio": ""},
 			{"origen":"أبيض","fonetizacion":"abyad","castellano":"blanco","categoria":"palabra","audio": ""},
@@ -131,8 +131,6 @@ let contador = 0;
 				document.getElementById("printOrigen").innerHTML = "";
 				document.getElementById("printFonetizacion").innerHTML = "";
 				document.getElementById("printCastellano").innerHTML = "";
-				document.getElementById("audio").pause();
-				document.getElementById("audio").currentTime = 0;
 			}
 			
 			if (contador <= 2){
