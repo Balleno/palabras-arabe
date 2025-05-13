@@ -3,6 +3,10 @@ let contador = 0;
 		function generateRandomWord(){
 			const palabras = [
 			//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
+			{"origen":"كرسي","fonetizacion":"cursii","castellano":"silla","categoria":"palabra","audio": "silla"},
+			{"origen":"دفتر","fonetizacion":"daftar","castellano":"libreta","categoria":"palabra","audio": "libreta"},
+			{"origen":"بنت","fonetizacion":"bint","castellano":"chica","categoria":"palabra","audio": "chica"},
+			{"origen":"ولد","fonetizacion":"walad","castellano":"chico","categoria":"palabra","audio": "chico"},
 			{"origen":"ليلة","fonetizacion":"leilah","castellano":"noche","categoria":"palabra","audio": "noche"},
 			{"origen":"نور","fonetizacion":"nuur","castellano":"luz (natural)","categoria":"palabra","audio": "luznatural"},
 			{"origen":"دود","fonetizacion":"doud","castellano":"gusanos","categoria":"palabra","audio": "gusanos"},
@@ -123,7 +127,7 @@ let contador = 0;
 			{"origen":"لحمة","fonetizacion":"luhma","castellano":"carne","categoria":"palabra","audio": "carne"},
 			{"origen":"جميل","fonetizacion":"yamil","castellano":"bonito","categoria":"palabra","audio": "jamil"},
 			{"origen":"آسف","fonetizacion":"asf","castellano":"perdón","categoria":"palabra","audio": "perdon"},
-			{"origen":"شكر","fonetizacion":"shkran","castellano":"gracias","categoria":"palabra","audio": "gracias"},
+			{"origen":"شكرًا","fonetizacion":"shkran","castellano":"gracias","categoria":"palabra","audio": "gracias"},
 			{"origen":"أسود","fonetizacion":"aswad","castellano":"negro","categoria":"palabra","audio": "negro"},
 			{"origen":"صباح الخير","fonetizacion":"sabah aljayr","castellano":"buenos dias","categoria":"frase","audio": "buenosdias"},
 			{"origen":"مساء الخير","fonetizacion":"masa aljayr","castellano":"buenas tardes","categoria":"frase","audio": "buenastardes"},
