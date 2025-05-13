@@ -3,6 +3,10 @@ let contador = 0;
 		function generateRandomWord(){
 			const palabras = [
 			//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
+			{"origen":"شمس","fonetizacion":"shams","castellano":"sol","categoria":"palabra","audio": "sol"},
+			{"origen":"صحن","fonetizacion":"suhan","castellano":"plato","categoria":"palabra","audio": "plato"},
+			{"origen":"بطة","fonetizacion":"battah","castellano":"pato","categoria":"palabra","audio": "pato"},
+			{"origen":"فيروزي","fonetizacion":"firuzhii","castellano":"turquesa","categoria":"palabra","audio": "turquesa"},
 			{"origen":"كيف حالك","fonetizacion":"kaif haluk","castellano":"¿Cómo estás?","categoria":"palabra","audio": "comoestas"},
 			{"origen":"أهلاً","fonetizacion":"ahlan","castellano":"hola","categoria":"palabra","audio": "ahlan"},
 			{"origen":"مثلية","fonetizacion":"mazliiya","castellano":"lesbiana","categoria":"palabra","audio": "lesbiana"},
