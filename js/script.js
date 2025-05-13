@@ -3,6 +3,10 @@ let contador = 0;
 		function generateRandomWord(){
 			const palabras = [
 			//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
+			{"origen":"حظ","fonetizacion":"haD","castellano":"suerte","categoria":"palabra","audio": "suerte"},
+			{"origen":"نظارات","fonetizacion":"naDarah","castellano":"gafas","categoria":"palabra","audio": "gafas"},
+			{"origen":"ظرف","fonetizacion":"Darf","castellano":"sobre","categoria":"palabra","audio": "sobre"},
+			{"origen":"نعم","fonetizacion":"na'am","castellano":"sí","categoria":"palabra","audio": "si"},
 			{"origen":"لا","fonetizacion":"la","castellano":"no","categoria":"palabra","audio": "no"},
 			{"origen":"نقدية","fonetizacion":"naqdiyah","castellano":"dinero (en efectivo)","categoria":"palabra","audio": "dineroefectivo"},
 			{"origen":"مال","fonetizacion":"maal","castellano":"dinero (capital)","categoria":"palabra","audio": "dinerocapital"},
