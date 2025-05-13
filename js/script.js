@@ -123,7 +123,7 @@ let contador = 0;
 			{"origen":"رز","fonetizacion":"roz","castellano":"arroz","categoria":"palabra","audio": "arroz"},
 			{"origen":"أزرق","fonetizacion":"azraq","castellano":"azul","categoria":"palabra","audio": "azul"},
 			{"origen":"جزيرة","fonetizacion":"yazira","castellano":"isla","categoria":"palabra","audio": "isla"},
-			{"origen":"موز","fonetizacion":"mouz","castellano":"plátanos","categoria":"palabra","audio": "platano"},
+			{"origen":"موز","fonetizacion":"mouz","castellano":"plátano","categoria":"palabra","audio": "platano"},
 			];
 			
 			if (contador == 0){
