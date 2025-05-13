@@ -17,7 +17,7 @@ div.a {
 }
 
 button.a {
-	background-color: #2dc3bf;
+	background-color: #ae52b7;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -34,7 +34,7 @@ button.a {
 	display: none
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 	p.a {
 		font-size:100px;
 	}
