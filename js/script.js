@@ -127,6 +127,7 @@ let contador = 0;
 			];
 			
 			if (contador == 0){
+				document.getElementById("boton").innerHTML = "Siguiente";
 				palabra = palabras[Math.floor(Math.random() * palabras.length)];
 				document.getElementById("printOrigen").innerHTML = "";
 				document.getElementById("printFonetizacion").innerHTML = "";
