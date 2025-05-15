@@ -8,6 +8,14 @@ function cargarMenu(){
 	x.style.display = "none";
 	var y = document.getElementById("menu");
 	y.style.display = "block";
+	palabra = [];
+}
+
+function audio(){
+	let audio = document.getElementById("audio")
+	audio.pause();
+	audio.currentTime = 0;
+	audio.play();
 }
 
 function play(categoriaPlay){
@@ -20,11 +28,10 @@ function play(categoriaPlay){
 	document.getElementById("printOrigen").innerHTML = "";
 	document.getElementById("printFonetizacion").innerHTML = "";
 	document.getElementById("printCastellano").innerHTML = "";
+	palabra = [];
 }
 
 function generateRandomWord(){
-	console.log(categoria);
-	
 	let palabras = [];
 	
 	const numero = [
@@ -297,7 +304,6 @@ function generateRandomWord(){
 	if (contador == 0){
 		
 		palabra = palabras[Math.floor(Math.random() * palabras.length)];
-		console.log(palabra.toString());
 		document.getElementById("printOrigen").innerHTML = "";
 		document.getElementById("printFonetizacion").innerHTML = "";
 		document.getElementById("printCastellano").innerHTML = "";
