@@ -3,10 +3,6 @@ let contador = 0;
 let categoria = '';
 let palabra = [];
 
-function empezar(){
-	window.location.href = "html/menu.html";
-}
-
 function cargarMenu(){
 	var x = document.getElementById("play");
 	x.style.display = "none";
