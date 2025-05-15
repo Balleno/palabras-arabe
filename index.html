@@ -8,9 +8,30 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-	<div class="a">
-	<button id="boton" onclick="empezar()" class="a">Empezar</button>
+<body onload="cargarMenu()">
+	<div id="menu" class="a">
+		<button onclick="play('todas')" class="a">TODAS</button><br>
+		<button onclick="play('numero')" class="a">Números</button><br>
+		<button onclick="play('color')" class="a">Colores</button><br>
+		<button onclick="play('animal')" class="a">Animales</button><br>
+		<button onclick="play('comida')" class="a">Comida</button><br>
+		<button onclick="play('utensilios')" class="a">Utensilios</button><br>
+		<button onclick="play('cuerpo')" class="a">Partes del cuerpo</button><br>
+		<button onclick="play('ropa')" class="a">Ropa</button><br>
+		<button onclick="play('estacion')" class="a">Estaciones del año</button><br>
+		<button onclick="play('familia')" class="a">Familia</button><br>
+		<button onclick="play('conversacion')" class="a">Conversación Básica</button><br>
+		<button onclick="play('ocupacion')" class="a">Ocupación</button><br>
+	</div>
+	<div id="play" class="a">
+		<button onclick="generateRandomWord()" class="a">Siguiente</button>
+		<button onclick="cargarMenu()" class="b">Volver al menú</button>
+		<p class="a" id="printOrigen"></p>
+		<p class="b" id="printFonetizacion"></p>
+		<p class="b" id="printCastellano"></p>
+		<audio id="audio" controls>
+			<source type="audio/wav" src="audio.wav">
+		</audio>
 	</div>
 	<script src="js/script.js"></script>
 </body>
