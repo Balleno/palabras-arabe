@@ -44,7 +44,25 @@ button.b {
 	border-radius: 25px;
 }
 
+button.c {
+	background-color: #d6a8db;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
 #audio{
+	display: none
+}
+
+#play{
 	display: none
 }
 
@@ -58,6 +76,19 @@ button.b {
 	}
 	button.a {
 		background-color: #2dc3bf;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 32px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 25px;
+	}
+	button.c {
+		background-color: #abe7e5;
 		border: none;
 		color: white;
 		padding: 15px 32px;
