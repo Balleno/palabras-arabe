@@ -44,7 +44,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'numero'){palabras = numero;}
-	else if(categoria == 'todas'){palabras += numero;}
+	else if(categoria == 'todas'){palabras.push(...numero);}
 	
 	const color = [
 	//COLORES
@@ -64,7 +64,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'color'){palabras = color;}
-	else if(categoria == 'todas'){palabras += color;}
+	else if(categoria == 'todas'){palabras.push(...color);}
 	
 	const animal = [
 	//ANIMALES
@@ -84,7 +84,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'animal'){palabras = animal;}
-	else if(categoria == 'todas'){palabras += animal;}
+	else if(categoria == 'todas'){palabras.push(...animal);}
 	
 	const comida = [
 	//COMIDA
@@ -114,7 +114,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'animal'){palabras = animal;}
-	else if(categoria == 'todas'){palabras += animal;}
+	else if(categoria == 'todas'){palabras.push(...animal);}
 	
 	const utensilios = [
 	//UTENSILIOS
@@ -127,7 +127,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'utensilios'){palabras = utensilios;}
-	else if(categoria == 'todas'){palabras += utensilios;}
+	else if(categoria == 'todas'){palabras.push(...utensilios);}
 
 	const cuerpo = [
 	//PARTES DEL CUERPO
@@ -141,7 +141,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'cuerpo'){palabras = cuerpo;}
-	else if(categoria == 'todas'){palabras += cuerpo;}
+	else if(categoria == 'todas'){palabras.push(...cuerpo);}
 	
 	const ropa = [
 	//ROPA
@@ -152,7 +152,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'ropa'){palabras = ropa;}
-	else if(categoria == 'todas'){palabras += ropa;}
+	else if(categoria == 'todas'){palabras.push(...ropa);}
 	
 	const estacion = [
 	//ESTACIONES
@@ -163,7 +163,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'estacion'){palabras = estacion;}
-	else if(categoria == 'todas'){palabras += estacion;}
+	else if(categoria == 'todas'){palabras.push(...estacion);}
 
 	const familia = [
 	//FAMILIA
@@ -177,7 +177,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'familia'){palabras = familia;}
-	else if(categoria == 'todas'){palabras += familia;}
+	else if(categoria == 'todas'){palabras.push(...familia);}
 	
 	const conversacion = [
 	//CONVERSACION
@@ -197,7 +197,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'conversacion'){palabras = conversacion;}
-	else if(categoria == 'todas'){palabras += conversacion;}
+	else if(categoria == 'todas'){palabras.push(...conversacion);}
 	
 	const ocupacion = [
 	//OCUPACION
@@ -210,7 +210,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'ocupacion'){palabras = ocupacion;}
-	else if(categoria == 'todas'){palabras += ocupacion;}
+	else if(categoria == 'todas'){palabras.push(...ocupacion);}
 	
 	const casa = [
 	{"origen":"كرسي","fonetizacion":"cursii","castellano":"silla","categoria":"casa","audio": "silla"},
@@ -221,7 +221,7 @@ function generateRandomWord(){
 	];
 	
 	if(categoria == 'casa'){palabras = casa;}
-	else if(categoria == 'todas'){palabras += casa;}
+	else if(categoria == 'todas'){palabras.push(...casa);}
 	
 	const sinCategoria = [
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
@@ -292,12 +292,12 @@ function generateRandomWord(){
 	{"origen":"جزيرة","fonetizacion":"yazira","castellano":"isla","categoria":"palabra","audio": "isla"},
 	];
 	
-	if(categoria == 'todas'){palabras += sinCategoria;}
+	if(categoria == 'todas'){palabras.push(...sinCategoria);}
 	
 	if (contador == 0){
 		
 		palabra = palabras[Math.floor(Math.random() * palabras.length)];
-		
+		console.log(palabra.toString());
 		document.getElementById("printOrigen").innerHTML = "";
 		document.getElementById("printFonetizacion").innerHTML = "";
 		document.getElementById("printCastellano").innerHTML = "";
@@ -312,7 +312,7 @@ function generateRandomWord(){
 		}
 		if (contador == 2){
 			document.getElementById("printFonetizacion").innerHTML = palabra.fonetizacion;
-			document.getElementById("audio").src = "../wav/" + palabra.audio + ".wav";
+			document.getElementById("audio").src = "wav/" + palabra.audio + ".wav";
 			document.getElementById("audio").play();
 		}
 		if (contador == 3){
