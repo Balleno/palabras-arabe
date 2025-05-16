@@ -232,6 +232,8 @@ function generateRandomWord(){
 	
 	const sinCategoria = [
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
+	{"origen":"كبير","fonetizacion":"kabiir","castellano":"grande","categoria":"palabra","audio": "grande"},
+	{"origen":"صغير","fonetizacion":"Saguiir","castellano":"pequeño","categoria":"palabra","audio": "pequeno"},
 	{"origen":"رقم","fonetizacion":"raqm","castellano":"número","categoria":"palabra","audio": "numero"},
 	{"origen":"لون","fonetizacion":"lawn","castellano":"color","categoria":"palabra","audio": "color"},
 	{"origen":"ألوان","fonetizacion":"alwan","castellano":"colores","categoria":"palabra","audio": "colores"},
