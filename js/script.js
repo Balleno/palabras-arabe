@@ -55,7 +55,7 @@ function generateRandomWord(){
 	
 	const color = [
 	//COLORES
-	{"origen":"رمادي","fonetizacion":"ramadii","castellano":"gris","categoria":"palabra","color": "gris"},
+	{"origen":"رمادي","fonetizacion":"ramadii","castellano":"gris","categoria":"palabra","color": "gris", "audio": "gris"},
 	{"origen":"بنفسجي","fonetizacion":"banafsajii","castellano":"morado","categoria":"color","audio": "morado"},
 	{"origen":"برتقالي","fonetizacion":"brtugali","castellano":"naranja (color)","categoria":"color","audio": "naranjacolor"},
 	{"origen":"بني","fonetizacion":"buni","castellano":"marrón","categoria":"color","audio": "marron"},
