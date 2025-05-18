@@ -9,6 +9,7 @@ function cargarMenu(){
 	var y = document.getElementById("menu");
 	y.style.display = "block";
 	palabra = [];
+	contador = 0;
 }
 
 function audio(){
