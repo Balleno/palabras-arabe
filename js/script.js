@@ -121,8 +121,8 @@ function generateRandomWord(){
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"comida","audio": ""},
 	];
 	
-	if(categoria == 'animal'){palabras = animal;}
-	else if(categoria == 'todas'){palabras.push(...animal);}
+	if(categoria == 'comida'){palabras = comida;}
+	else if(categoria == 'todas'){palabras.push(...comida);}
 	
 	const utensilios = [
 	//UTENSILIOS
