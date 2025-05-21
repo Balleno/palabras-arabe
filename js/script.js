@@ -318,11 +318,10 @@ function generateRandomWord(){
 		contador ++;
 		if (contador == 1){
 			document.getElementById("printOrigen").innerHTML = palabra.origen;
+			document.getElementById("audio").src = "wav/" + palabra.audio + ".wav";
 		}
 		if (contador == 2){
 			document.getElementById("printFonetizacion").innerHTML = palabra.fonetizacion;
-			document.getElementById("audio").src = "wav/" + palabra.audio + ".wav";
-			document.getElementById("audio").play();
 		}
 		if (contador == 3){
 			document.getElementById("printCastellano").innerHTML = palabra.castellano;
