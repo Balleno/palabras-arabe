@@ -154,6 +154,10 @@ function generateRandomWord(){
 	{"origen":"لسان","fonetizacion":"lisan","castellano":"cuerpo","categoria":"cuerpo","audio": "lengua"},
 	{"origen":"قلب","fonetizacion":"qalb","castellano":"corazón","categoria":"cuerpo","audio": "corazon"},
 	{"origen":"يد","fonetizacion":"iad","castellano":"mano","categoria":"cuerpo","audio": "mano"},
+	{"origen":"عين","fonetizacion":"'ayn","castellano":"ojo","categoria":"cuerpo","audio": "ojo"},
+	{"origen":"وجه","fonetizacion":"","castellano":"","categoria":"cuerpo","audio": ""},
+	{"origen":"خد","fonetizacion":"jadd","castellano":"mejilla","categoria":"cuerpo","audio": "mejilla"},
+	{"origen":"انف","fonetizacion":"enfi","castellano":"nariz","categoria":"cuerpo","audio": "nariz"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"cuerpo","audio": ""},
 	];
 	
@@ -171,16 +175,20 @@ function generateRandomWord(){
 	if(categoria == 'ropa'){palabras = ropa;}
 	else if(categoria == 'todas'){palabras.push(...ropa);}
 	
-	const estacion = [
+	const tiempo = [
 	//ESTACIONES
-	{"origen":"صيف","fonetizacion":"saif","castellano":"verano","categoria":"estacion","audio": "verano"},
-	{"origen":"شتاء","fonetizacion":"shitaa","castellano":"invierno","categoria":"estacion","audio": "invierno"},
-	{"origen":"ربيع","fonetizacion":"rabiia","castellano":"primavera","categoria":"estacion","audio": "primavera"},
-	{"origen":"خريف","fonetizacion":"jarif","castellano":"otoño","categoria":"estacion","audio": "otono"},
+	{"origen":"صيف","fonetizacion":"saif","castellano":"verano","categoria":"tiempo","audio": "verano"},
+	{"origen":"شتاء","fonetizacion":"shitaa","castellano":"invierno","categoria":"tiempo","audio": "invierno"},
+	{"origen":"ربيع","fonetizacion":"rabiia","castellano":"primavera","categoria":"tiempo","audio": "primavera"},
+	{"origen":"خريف","fonetizacion":"jarif","castellano":"otoño","categoria":"tiempo","audio": "otono"},
+	{"origen":"سنة","fonetizacion":"sanah","castellano":"año","categoria":"tiempo","audio": "año"},
+	{"origen":"شهر","fonetizacion":"shahr","castellano":"mes","categoria":"tiempo","audio": "mes"},
+	{"origen":"","fonetizacion":"iawm","castellano":"dia","categoria":"tiempo","audio": "dia"},
+	//{"origen":"","fonetizacion":"","castellano":"","categoria":"tiempo","audio": ""},
 	];
 	
-	if(categoria == 'estacion'){palabras = estacion;}
-	else if(categoria == 'todas'){palabras.push(...estacion);}
+	if(categoria == 'tiempo'){palabras = tiempo;}
+	else if(categoria == 'todas'){palabras.push(...tiempo);}
 
 	const familia = [
 	//FAMILIA
@@ -212,6 +220,9 @@ function generateRandomWord(){
 	{"origen":"أيوا", "fonetizacion":"aiwa","castellano":"sí","categoria":"conversacion","audio": "aiwa"},
 	{"origen":"لحظة","fonetizacion":"laHZa","castellano":"espera","categoria":"conversacion","audio": "espera"},
 	{"origen":"هكذا","fonetizacion":"haakadhaa","castellano":"así","categoria":"conversacion","audio": "asi"},
+	{"origen":"هلا","fonetizacion":"halaa","castellano":"puedes?","categoria":"conversacion","audio": "puedesPregunta"},
+	{"origen":"إذا","fonetizacion":"idaa","castellano":"entonces","categoria":"conversacion","audio": "entonces"},
+	{"origen":"بدون","fonetizacion":"biduun","castellano":"sin","categoria":"conversacion","audio": "sin"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"conversacion","audio": ""},
 	];
 	
@@ -239,6 +250,9 @@ function generateRandomWord(){
 	{"origen":"سرير","fonetizacion":"sarir","castellano":"cama","categoria":"casa","audio": "cama"},
 	{"origen":"حمام","fonetizacion":"Hamaam","castellano":"baño / bañera","categoria":"casa","audio": "baño / bañera"},
 	{"origen":"دار","fonetizacion":"daar","castellano":"hogar","categoria":"casa","audio": "hogar"},
+	{"origen":"نافذة","fonetizacion":"naafidah","castellano":"ventana","categoria":"casa","audio": "ventana"},
+	{"origen":"منزل","fonetizacion":"manzhil","castellano":"casa (formal)","categoria":"casa","audio": "casaformal"},
+	{"origen":"مخدّة","fonetizacion":"mijadda","castellano":"almohada / cojín","categoria":"casa","audio": "almohada"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"casa","audio": ""},
 	];
 	
@@ -247,6 +261,13 @@ function generateRandomWord(){
 	
 	const sinCategoria = [
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
+	{"origen":"منبّه","fonetizacion":"munabbih","castellano":"despertador","categoria":"palabra","audio": "despertador"},
+	{"origen":"هديّة","fonetizacion":"hadiyya","castellano":"regalo","categoria":"palabra","audio": "regalo"},
+	{"origen":"هواء","fonetizacion":"hawaa","castellano":"aire","categoria":"palabra","audio": "aire"},
+	{"origen":"حسّاسيّة","fonetizacion":"Hassaasiyya","castellano":"alergia","categoria":"palabra","audio": "alergia"},
+	{"origen":"عادي","fonetizacion":"aadii","castellano":"normal / habitual","categoria":"palabra","audio": "normal"},
+	{"origen":"خلاص","fonetizacion":"jalaaS","castellano":"salvación","categoria":"palabra","audio": "salvacion"},
+	{"origen":"إذن","fonetizacion":"idn","castellano":"permiso","categoria":"palabra","audio": "permiso"},
 	{"origen":"فن","fonetizacion":"fann","castellano":"arte","categoria":"palabra","audio": "arte"},
 	{"origen":"عمود","fonetizacion":"'amuud","castellano":"pilar","categoria":"palabra","audio": "pilar"},
 	{"origen":"أمام","fonetizacion":"'amām","castellano":"delante","categoria":"palabra","audio": "delante"},
