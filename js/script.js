@@ -72,7 +72,6 @@ function generateRandomWord(){
 	{"origen":"أزرق","fonetizacion":"azraq","castellano":"azul","categoria":"color","audio": "azul"},
 	{"origen":"فضّي","fonetizacion":"fiDDii","castellano":"plateado","categoria":"color","audio": "plateado"},
 	{"origen":"ذهبي","fonetizacion":"dhahabii","castellano":"dorado","categoria":"color","audio": "dorado"},
-	{"origen":"","fonetizacion":"","castellano":"verde (claro)","categoria":"color","audio": ""},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"color","audio": ""},
 	];
 	
