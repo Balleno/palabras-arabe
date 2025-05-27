@@ -183,7 +183,10 @@ function generateRandomWord(){
 	{"origen":"خريف","fonetizacion":"jarif","castellano":"otoño","categoria":"tiempo","audio": "otono"},
 	{"origen":"سنة","fonetizacion":"sanah","castellano":"año","categoria":"tiempo","audio": "año"},
 	{"origen":"شهر","fonetizacion":"shahr","castellano":"mes","categoria":"tiempo","audio": "mes"},
-	{"origen":"","fonetizacion":"iawm","castellano":"dia","categoria":"tiempo","audio": "dia"},
+	{"origen":"يوم","fonetizacion":"iawm","castellano":"dia","categoria":"tiempo","audio": "dia"},
+	{"origen":"اليوم","fonetizacion":"al-yawma","castellano":"hoy","categoria":"tiempo","audio": "hoy"},
+	{"origen":"أمس","fonetizacion":"'amsi","castellano":"ayer","categoria":"tiempo","audio": "ayer"},
+	{"origen":"غد","fonetizacion":"ghad","castellano":"mañana","categoria":"tiempo","audio": "mañana"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"tiempo","audio": ""},
 	];
 	
@@ -223,6 +226,8 @@ function generateRandomWord(){
 	{"origen":"هلا","fonetizacion":"halaa","castellano":"puedes?","categoria":"conversacion","audio": "puedesPregunta"},
 	{"origen":"إذا","fonetizacion":"idaa","castellano":"entonces","categoria":"conversacion","audio": "entonces"},
 	{"origen":"بدون","fonetizacion":"biduun","castellano":"sin","categoria":"conversacion","audio": "sin"},
+	{"origen":"ولا","fonetizacion":"walaa","castellano":"ni","categoria":"conversacion","audio": "ni"},
+	{"origen":"هذا","fonetizacion":"haadhaa","castellano":"este / esto","categoria":"conversacion","audio": "este"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"conversacion","audio": ""},
 	];
 	
@@ -236,6 +241,7 @@ function generateRandomWord(){
 	{"origen":"أستاذ","fonetizacion":"ustadh","castellano":"profesor","categoria":"ocupacion","audio": "ustad"},
 	{"origen":"شرطي","fonetizacion":"shurTii","castellano":"policía","categoria":"ocupacion","audio": "policia"},
 	{"origen":"طبيب","fonetizacion":"Tabiib","castellano":"médico","categoria":"ocupacion","audio": "medico"},
+	{"origen":"ممرّض","fonetizacion":"mumarriD","castellano":"enfermero","categoria":"ocupacion","audio": "enfermero"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"ocupacion","audio": ""},
 	];
 	
@@ -261,6 +267,7 @@ function generateRandomWord(){
 	
 	const sinCategoria = [
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
+	{"origen":"هدوء","fonetizacion":"huduu'","castellano":"calma / silencio","categoria":"palabra","audio": "calma"},
 	{"origen":"منبّه","fonetizacion":"munabbih","castellano":"despertador","categoria":"palabra","audio": "despertador"},
 	{"origen":"هديّة","fonetizacion":"hadiyya","castellano":"regalo","categoria":"palabra","audio": "regalo"},
 	{"origen":"هواء","fonetizacion":"hawaa","castellano":"aire","categoria":"palabra","audio": "aire"},
