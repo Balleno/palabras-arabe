@@ -94,6 +94,7 @@ function generateRandomWord(){
 	{"origen":"أسد","fonetizacion":"asad","castellano":"león","categoria":"animal","audio": "asad"},
 	{"origen":"دب","fonetizacion":"dob","castellano":"oso","categoria":"animal","audio": "oso"},
 	{"origen":"ديك","fonetizacion":"diik","castellano":"gallo","categoria":"animal","audio": "gallo"},
+	{"origen":"طاووس","fonetizacion":"Taawuus","castellano":"pavo real","categoria":"animal","audio": "pavoreal"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"animal","audio": ""},
 	];
 	
@@ -103,14 +104,14 @@ function generateRandomWord(){
 
 	const direccion = [
 	//DIRECCIONES
-	//{"origen":"","fonetizacion":"","castellano":"izquierda","categoria":"direccion","audio": "izquierda"},
-	//{"origen":"","fonetizacion":"","castellano":"derecha","categoria":"direccion","audio": "derecha"},
-	//{"origen":"","fonetizacion":"","castellano":"arriba","categoria":"direccion","audio": "arriba"},
-	//{"origen":"","fonetizacion":"","castellano":"abajo","categoria":"direccion","audio": "abajo"},
-	//{"origen":"","fonetizacion":"","castellano":"Norte","categoria":"direccion","audio": "norte"},
-	//{"origen":"","fonetizacion":"","castellano":"Sur","categoria":"direccion","audio": "sur"},
-	//{"origen":"","fonetizacion":"","castellano":"Este","categoria":"direccion","audio": "esteCardinal"},
-	//{"origen":"","fonetizacion":"","castellano":"Oeste","categoria":"direccion","audio": "oeste"},
+	{"origen":"يسار","fonetizacion":"yasaar","castellano":"izquierda","categoria":"direccion","audio": "izquierda"},
+	{"origen":"يمين","fonetizacion":"yamiin","castellano":"derecha","categoria":"direccion","audio": "derecha"},
+	{"origen":"فوق","fonetizacion":"fawqu","castellano":"arriba","categoria":"direccion","audio": "arriba"},
+	{"origen":"أسفل","fonetizacion":"ʾasfal","castellano":"abajo","categoria":"direccion","audio": "abajo"},
+	{"origen":"شمالي","fonetizacion":"shamaalii","castellano":"Norte","categoria":"direccion","audio": "norte"},
+	{"origen":"جنوب","fonetizacion":"yunuub","castellano":"Sur","categoria":"direccion","audio": "sur"},
+	{"origen":"شرق","fonetizacion":"sharq","castellano":"Este / Oriente","categoria":"direccion","audio": "oriente"},
+	{"origen":"","fonetizacion":"gharb","castellano":"Oeste / Occidente","categoria":"direccion","audio": "occidente"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"direccion","audio": ""},
 	];
 	
@@ -143,7 +144,7 @@ function generateRandomWord(){
 	{"origen":"حلال","fonetizacion":"halal","castellano":"halal","categoria":"utensilios","audio": "halal"},
 	{"origen":"مانجو","fonetizacion":"maanyuu","castellano":"mango","categoria":"comida","audio": "mango"},
 	{"origen":"نار","fonetizacion":"naar","castellano":"fuego / picante","categoria":"comida","audio": "fuego"},
-	//{"origen":"","fonetizacion":"","castellano":"té","categoria":"comida","audio": "te"},
+	{"origen":"شاي","fonetizacion":"shaay","castellano":"té","categoria":"comida","audio": "te"},
 	//{"origen":"","fonetizacion":"","castellano":"té con leche","categoria":"comida","audio": "teLeche"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"comida","audio": ""},
 	];
@@ -158,6 +159,7 @@ function generateRandomWord(){
 	{"origen":"سكين","fonetizacion":"sakin","castellano":"cuchillo","categoria":"utensilios","audio": "cuchillo"},
 	{"origen":"ملعقة","fonetizacion":"mula'qah","castellano":"cuchara","categoria":"utensilios","audio": "cuchara"},
 	{"origen":"مطبخ","fonetizacion":"matbaj","castellano":"cocina","categoria":"utensilios","audio": "cocina"},
+	{"origen":"كأس","fonetizacion":"kaʾs","castellano":"vaso / copa","categoria":"comida","audio": "vaso"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"comida","audio": ""},
 	];
 	
@@ -176,6 +178,7 @@ function generateRandomWord(){
 	{"origen":"وجه","fonetizacion":"","castellano":"","categoria":"cuerpo","audio": ""},
 	{"origen":"خد","fonetizacion":"jadd","castellano":"mejilla","categoria":"cuerpo","audio": "mejilla"},
 	{"origen":"انف","fonetizacion":"enfi","castellano":"nariz","categoria":"cuerpo","audio": "nariz"},
+	{"origen":"رأس","fonetizacion":"raʾs","castellano":"cabeza","categoria":"cuerpo","audio": "cabeza"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"cuerpo","audio": ""},
 	];
 	
@@ -233,6 +236,7 @@ function generateRandomWord(){
 	{"origen":"شرطي","fonetizacion":"shurTii","castellano":"policía","categoria":"ocupacion","audio": "policia"},
 	{"origen":"طبيب","fonetizacion":"Tabiib","castellano":"médico","categoria":"ocupacion","audio": "medico"},
 	{"origen":"ممرّض","fonetizacion":"mumarriD","castellano":"enfermero","categoria":"ocupacion","audio": "enfermero"},
+	{"origen":"رئيس","fonetizacion":"raʾiis","castellano":"presidente","categoria":"ocupacion","audio": "presidente"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"ocupacion","audio": ""},
 	];
 	
@@ -259,7 +263,7 @@ function generateRandomWord(){
 
 	const verbo = [
 	//VERBOS
-	//{"origen":"","fonetizacion":"","castellano":"ver","categoria":"verbo","audio": "ver"},
+	{"origen":"رؤية","fonetizacion":"ruʾya","castellano":"ver","categoria":"verbo","audio": "ver"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"verbo","audio": ""},
 	];
 	
@@ -308,7 +312,8 @@ function generateRandomWord(){
 	{"origen":"بدون","fonetizacion":"biduun","castellano":"sin","categoria":"conversacion","audio": "sin"},
 	{"origen":"ولا","fonetizacion":"walaa","castellano":"ni","categoria":"conversacion","audio": "ni"},
 	{"origen":"هذا","fonetizacion":"haadhaa","castellano":"este / esto","categoria":"conversacion","audio": "este"},
-	//{"origen":"","fonetizacion":"","castellano":"juramento","categoria":"conversacion","audio": "juramento"},
+	{"origen":"صدقا","fonetizacion":"Sidqan","castellano":"honestamente","categoria":"conversacion","audio": "honestamente"},
+	{"origen":"والله","fonetizacion":"wa-llaah","castellano":"te lo juro por Dios","categoria":"conversacion","audio": "telojuro"},
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"conversacion","audio": ""},
 	];
 	
@@ -317,14 +322,18 @@ function generateRandomWord(){
 	
 	const sinCategoria = [
 	//{"origen":"","fonetizacion":"","castellano":"","categoria":"palabra","audio": ""},
-	//{"origen":"","fonetizacion":"","castellano":"mar","categoria":"palabra","audio": "mar"},
-	//{"origen":"","fonetizacion":"","castellano":"tren","categoria":"palabra","audio": "tren"},
-	//{"origen":"","fonetizacion":"","castellano":"coche","categoria":"palabra","audio": "coche"},
-	//{"origen":"","fonetizacion":"","castellano":"avión","categoria":"palabra","audio": "avion"},
-	//{"origen":"","fonetizacion":"","castellano":"opinión","categoria":"palabra","audio": "opinion"},
-	//{"origen":"","fonetizacion":"","castellano":"hospital","categoria":"palabra","audio": "hospital"},
-	//{"origen":"","fonetizacion":"","castellano":"sobre (preposición)","categoria":"palabra","audio": "sobrePreposicion"},
-	//{"origen":"","fonetizacion":"","castellano":"obligación","categoria":"palabra","audio": "obligacion"},
+	{"origen":"لؤلؤ","fonetizacion":"lu'lu'","castellano":"perla","categoria":"palabra","audio": "perla"},
+	{"origen":"الْقُرْآنِ","fonetizacion":"ālqurʾān","castellano":"El Corán","categoria":"palabra","audio": "coran"},
+	{"origen":"بئر","fonetizacion":"bi'r","castellano":"pozo","categoria":"palabra","audio": "pozo"},
+	{"origen":"بحر","fonetizacion":"baHar","castellano":"mar","categoria":"palabra","audio": "mar"},
+	{"origen":"قطار","fonetizacion":"qiTaar","castellano":"tren","categoria":"viajes","audio": "tren"},
+	{"origen":"سيّارة","fonetizacion":"sayyaara","castellano":"coche","categoria":"viajes","audio": "coche"},
+	{"origen":"طائرة","fonetizacion":"Taaʾira","castellano":"avión","categoria":"viajes","audio": "avion"},
+	{"origen":"مطار","fonetizacion":"maTaar","castellano":"aeropuerto","categoria":"viajes","audio": "aeropuerto"},
+	{"origen":"رأي","fonetizacion":"raʾy","castellano":"opinión","categoria":"palabra","audio": "opinion"},
+	{"origen":"مستشفى","fonetizacion":"mustashfaa","castellano":"hospital","categoria":"palabra","audio": "hospital"},
+	{"origen":"ʿalaa","fonetizacion":"ʿalaa","castellano":"sobre (preposición)","categoria":"palabra","audio": "sobrePreposicion"},
+	{"origen":"عليّ","fonetizacion":"ʿalii","castellano":"debo","categoria":"palabra","audio": "debo"},
 	{"origen":"هدوء","fonetizacion":"huduu'","castellano":"calma / silencio","categoria":"palabra","audio": "calma"},
 	{"origen":"منبّه","fonetizacion":"munabbih","castellano":"despertador","categoria":"palabra","audio": "despertador"},
 	{"origen":"هديّة","fonetizacion":"hadiyya","castellano":"regalo","categoria":"palabra","audio": "regalo"},
@@ -337,7 +346,6 @@ function generateRandomWord(){
 	{"origen":"عمود","fonetizacion":"'amuud","castellano":"pilar","categoria":"palabra","audio": "pilar"},
 	{"origen":"أمام","fonetizacion":"'amām","castellano":"delante","categoria":"palabra","audio": "delante"},
 	{"origen":"مطر","fonetizacion":"maTr","castellano":"lluvia","categoria":"palabra","audio": "lluvia"},
-	{"origen":"مطار","fonetizacion":"maTaar","castellano":"aeropuerto","categoria":"palabra","audio": "aeropuerto"},
 	{"origen":"مكان","fonetizacion":"makaan","castellano":"sitio","categoria":"palabra","audio": "sitio"},
 	{"origen":"حرف","fonetizacion":"Harf","castellano":"letra","categoria":"palabra","audio": "letra"},
 	{"origen":"حرفيّا","fonetizacion":"Harfiyyan","castellano":"literalmente","categoria":"palabra","audio": "literalmente"},
